@@ -1,31 +1,32 @@
 <?php
 $degrees = random_int(0, 360);
-if ($degrees<=29){
-    echo ' 1 hour';
-}elseif (($degrees>=30) && ($degrees<=59)){
-    echo '2 hour';
-}elseif (($degrees>=60) && ($degrees<=89)){
-    echo '3 hour';
-}elseif (($degrees>=90) && ($degrees<=119)){
-    echo '4 hour';
-}elseif ($degrees>=120 && $degrees<=149){
-    echo '5 hour';
-}elseif (($degrees>=150) && ($degrees<=179)){
-    echo '6 hour';
-}elseif (($degrees>=180) && ($degrees<=209)){
-    echo '7 hour';
-}elseif (($degrees>=210) && ($degrees<=239)){
-    echo '8hour';
-}elseif (($degrees>=240) && ($degrees<=269)){
-    echo '9 hour';
-}elseif (($degrees>=270) && ($degrees<=299)){
-    echo '10 hour';
-}elseif (($degrees>=300) && ($degrees<=329)){
-    echo '11 hour';
-}elseif (($degrees>=330) && ($degrees<=360)) {
-    echo '12 hour ';
+$result = '';
+echo $degrees;
+if ($degrees <= 29) {
+    $result = ' 1 hour';
+} elseif ($degrees <= 59) {
+    $result = '2 hour';
+} elseif ($degrees <= 89) {
+    $result = '3 hour';
+} elseif ($degrees <= 119) {
+    $result = '4 hour';
+} elseif ($degrees <= 149) {
+    $result = '5 hour';
+} elseif ($degrees <= 179) {
+    $result = '6 hour';
+} elseif ($degrees <= 209) {
+    $result = '7 hour';
+} elseif ($degrees <= 239) {
+    $result = '8hour';
+} elseif ($degrees <= 269) {
+    $result = '9 hour';
+} elseif ($degrees <= 299) {
+    $result = '10 hour';
+} elseif ($degrees <= 329){
+    $result = '11 hour';
+} elseif ($degrees <= 360) {
+    $result = '12 hour ';
 }
-
-
+echo $degrees, PHP_EOL, $result;
 
 

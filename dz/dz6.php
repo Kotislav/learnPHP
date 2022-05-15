@@ -11,4 +11,4 @@ $cards = [
     13 =>'Король',
     14 =>'Туз' ,
 ];
- echo $cards[$cardNumber];
+ echo "Ваша карта $cards[$cardNumber]";
