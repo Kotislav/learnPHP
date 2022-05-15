@@ -1,7 +1,6 @@
 <?php
 $degrees = random_int(0, 360);
 $result = '';
-echo $degrees;
 if ($degrees <= 29) {
     $result = ' 1 hour';
 } elseif ($degrees <= 59) {

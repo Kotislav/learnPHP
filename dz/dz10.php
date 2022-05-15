@@ -12,4 +12,4 @@ if ($finger === 1) {
 } elseif ($finger === 5) {
     $result = 'мизинец';
 }
-echo $finger;
+echo $finger, PHP_EOL, $result;
