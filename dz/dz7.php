@@ -28,4 +28,12 @@ if ($degrees <= 29) {
 }
 echo $degrees, PHP_EOL, $result;
 
+////Працює. Але спробуйте скоротити. Можна використовувати арифметику.
+///
+///
 
+$degrees = random_int(0, 360);
+echo $degrees;
+$timePassed = (int) ($degrees / 30);
+echo "Прошло $timePassed часов ";
+echo PHP_EOL;
